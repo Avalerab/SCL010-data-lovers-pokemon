@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Data Lovers</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width", user-escalable="no", initial-scale="1.0", maximun-scale="1.0", minimun-scale="1.0">
+  </head>
+  <body>
+      <div id="pokemon" class="container">
+        <img class ="logo" src="http://www.imagenonline.com/imagenes/3/2678-c30b881f7d9a3b07ca858f59baa3dde5ad44021e.png" style="max-width:auto;height:auto;">
+        <h2>Conociendo los Pokémonos</h2>
+      
+      
+      <select name="name" id="filterName" class="filters">
+        <option value="nameAZ">Nombre</option>
+        <option value="A-Z">A-Z</option>
+        <option value="Z-A">Z-A</option>
+      </select>
+     
+
+
+    <select name="type" id="filterType" class="filters">
+      <option value="typePk">Tipo</option>
+      <option value="Water">Agua(Water)</option>
+      <option value="Dragon">Dragón(Dragon)</option>
+      <option value="Electric">Eléctrico(Electric)</option>
+      <option value="Ghost">Fantasma(Ghost)</option>
+      <option value="Fire">Fuego(Fire)</option>
+      <option value="Grass">Hierba(Grass)</option>
+      <option value="Ice">Hielo(Ice)</option>
+      <option value="Bug">Insecto(Bug)</option>
+      <option value="Fighting">Lucha(Fighting)</option>
+      <option value="Normal">Normal(Normal)</option>
+      <option value="Psychic">Psíquico(Psychic)</option>
+      <option value="Rock">Roca(Rock)</option>
+      <option value="Ground">Tierra(Ground)</option>
+      <option value="Poison">Veneno(Poison)</option>
+      <option value="Flying">Volador(Flying)</option>
+            
+    </select>
+
+    <div id="resultPk" class="tarjetas"></div>
+    <!--<div id="img" class="tarjetas"></div>-->
+
+    <div id="root">@Copyrigth AV Enterprises Corporation 2019</div>
+  </div>  
+    <script src="./data/pokemon/pokemon.js"></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
